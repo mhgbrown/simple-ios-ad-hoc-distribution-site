@@ -1,0 +1,41 @@
+/* style.css
+ * This file provides css styles.
+ */
+
+ * {
+   box-sizing: border-box;
+ }
+
+ html {
+     -webkit-font-smoothing: antialiased;
+     -moz-osx-font-smoothing: grayscale;
+     font-family: 'helvetica', sans-serif;
+     font-size: 18px;
+     color: white;
+     background-color: black;
+     height: 100%;
+ }
+
+ body {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100%;
+ }
+
+ button {
+   font-size: inherit;
+   font-family: inherit;
+   background-color: black;
+   color: white;
+   border: none;
+   cursor: pointer;
+   padding: 0;
+   border-bottom: 1px solid white;
+ }
+
+ h1,h2,h3,h4,h5,h6 {
+   font-size: 2rem;
+   font-weight: normal;
+   margin-top: 0;
+ }

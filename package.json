@@ -1,0 +1,17 @@
+{
+  "name": "simple-ios-ad-hoc-distribution-site",
+  "version": "1.0.0",
+  "description": "Simple site to facilitate the ad hoc distribution of an iOS app",
+  "scripts": {
+    "start": "node --harmony app.js"
+  },
+  "dependencies": {
+    "cfenv": "1.0.x",
+    "ejs": "^2.5.5",
+    "express": "4.12.x"
+  },
+  "repository": {},
+  "engines": {
+    "node": "6.9.x"
+  }
+}
